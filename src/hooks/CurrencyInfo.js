@@ -12,7 +12,10 @@ function getCurrencyInfo(currency){
             setData(res[currency]);
         })
     }, [currency]);
+
     
+    
+    // console.log(getCurrencyInfo("usd"));
     return data
 }
 
